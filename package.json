@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "author": "Jonathan Steele <jonathan@steele.pro> (https://steele.pro)",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "dev": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "1.6.16",
+    "@mdx-js/react": "1.6.16",
+    "gatsby": "2.24.34",
+    "gatsby-plugin-mdx": "1.2.34",
+    "gatsby-source-graphcms": "2.0.0-next.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
